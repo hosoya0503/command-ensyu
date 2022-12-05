@@ -5,22 +5,20 @@ public class Bmi {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("一人目の身長を入力してください。");
-		System.out.println("単位はcmではなくmです。");
-		System.out.print("一人目の身長：");
+		System.out.print("一人目の身長(cm)：");
 		double height1 = sc.nextDouble();
 		System.out.println("一人目の体重を入力してください。");
-		System.out.print("一人目の体重：");
+		System.out.print("一人目の体重(kg)：");
 		double weight1 = sc.nextDouble();
 		System.out.println("一人目のBMIを計算します。");
 		double bmi1 = weight1/(height1*height1);
 		System.out.println("一人目のBMI：" + String.format("%.2f",bmi1));
 
 		System.out.println("二人目の身長を入力してください。");
-                System.out.println("単位はcmではなくmです。");
-                System.out.print("二人目の身長：");
+                System.out.print("二人目の身長(cm)：");
                 double height2 = sc.nextDouble();
                 System.out.println("二人目の体重を入力してください。");
-                System.out.print("二人目の体重：");
+                System.out.print("二人目の体重(kg)：");
                 double weight2 = sc.nextDouble();
                 System.out.println("二人目のBMIを計算します。");
                 double bmi2 = weight2/(height2*height2);
